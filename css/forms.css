@@ -1,0 +1,92 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: 'Assistant', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: darkgray;
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row nowrap;
+	background-color: white;
+	border-radius: 30px;
+}
+p {
+	margin-bottom: 0;
+	margin-top: 2rem;
+}
+section {
+	flex-basis: 57%;
+	margin-right: 10%;
+}
+aside {
+	flex-basis: 33%;
+}
+
+fieldset {
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-bottom: 2rem;
+}
+legend{
+	font-weight: bold;
+	font-size: 1.3rem;
+	margin: 1.5rem 0 1rem 0;
+	border: 0px solid blue;
+	display: block;
+}
+label{
+	border: 0px solid red;
+	display: block;
+}
+
+.space {
+	margin: 2rem;
+}
+
+textarea{
+	height: 10rem;
+	padding: 1rem;
+	width: 80%;
+}
+select{
+	font-size: 1rem;
+}
+button{
+	font-size: 1rem;
+	margin: 1rem;
+	padding: 1rem;
+	border-radius: 20px;
+	background-color: cyan;
+	border: none
+	
+}
+button:hover{
+	background-color: darkcyan;
+	cursor:-webkit-grab;
+}
+input:not([type="radio"]):not([type="checkbox"]),textarea, select{
+	display: block;
+	margin-bottom: 2rem;
+	width: 40%;
+	font-family:'Assistant', sans-serif;
+	padding: 0 1rem;
+	border-radius: 5px;
+	border:1px solid darkgray;
+	
+}
+
+
+
+
+
+
+
